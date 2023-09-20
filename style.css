@@ -1,0 +1,32 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    background-color: green;
+    display: inline-block;
+}
+
+ul li {
+    margin-left: 3rem;
+}
+
+/* Souligner le premier paragraphe */
+#first-p {
+    text-decoration: underline;
+}
+
+#last-p {
+    border: solid;
+    padding: 5px;
+    display: inline-block;
+}
+
+img {
+    width: 300px;
+    display: block;
+    margin: auto;
+}
