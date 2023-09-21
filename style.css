@@ -25,8 +25,104 @@ ul li {
     display: inline-block;
 }
 
-img {
+#img-bond {
     width: 300px;
     display: block;
     margin: auto;
+}
+
+/* ---------------------------------------------- */
+/* PAGE PROFIL */
+/* ---------------------------------------------- */
+
+/* NAV */
+
+nav {
+    
+    background-color: blue;
+    padding: 3rem;
+    
+    
+    
+}
+
+nav ul {
+    display: flex;
+    font-size: 1.5rem;
+    
+    
+}
+
+nav li{
+    /* Suppression des puces */
+    list-style-type: none;
+    
+
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* -------------- */
+.container-presentation {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 4rem 10rem 0 10rem;
+}
+
+.container-presentation img {
+    width: 200px;
+    border-radius: 15px;
+
+}
+
+
+#container-img-name {
+    width: 40%;
+}
+
+#container-img-name {
+    font-weight: bold;
+}
+
+#container-about-me {
+    width: 40%;
+    
+}
+
+#container-about-me p {
+    margin-top: 2rem;
+
+}
+
+#container-img-name {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#container-about-me h3 {
+    margin-top: 3rem;
+}
+
+#button-container {
+    display: flex;
+    
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #007bff; 
+    color: #fff;
+    border: none;
+    /* Coins arrondis */
+    border-radius: 5px; 
+    cursor: pointer;
+    margin: 3rem 1rem 0 0;
+}
+
+/* Style spécifique pour le bouton "Cancel" */
+.cancel-button {
+    background-color: #c54747; 
 }
