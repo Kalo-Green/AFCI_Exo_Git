@@ -11,6 +11,10 @@
     display: inline-block;
 }
 
+#body-index p {
+    margin-left: 1rem;
+}
+
 ul li {
     margin: 1rem 0 1rem 3rem;
 }
