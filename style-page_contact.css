@@ -59,3 +59,33 @@ iframe {
     width:100%;
     height: 100%;
 }
+
+/* Nav */
+
+nav {
+    
+    background-color: blue;
+    padding: 3rem;
+    
+    
+    
+}
+
+nav ul {
+    display: flex;
+    font-size: 1.5rem;
+    
+    
+}
+
+nav li{
+    /* Suppression des puces */
+    list-style-type: none;
+    
+
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
