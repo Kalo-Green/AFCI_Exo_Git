@@ -1,0 +1,52 @@
+body {
+    padding: 150px;
+}
+
+#container-left {
+    display: block;
+    width: 50%;
+    background-color: rgb(90, 90, 90);
+}
+
+#container-right {
+    display: block;
+    width: 50%;
+    background-color: rgb(90, 90, 90);
+}
+
+.logo {
+    display: inline-block;
+    width: calc(49.70% - 50px);
+    text-align: center;
+    padding: 25px;
+}
+
+p {
+    font-size: 14px;
+    color: white;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 16px;
+    color: white;
+}
+
+ul > li {
+    display: inline;
+    margin: 5px;
+    list-style-type: none;
+}
+
+iframe {
+    width:100%
+}
+
+#container-left{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
